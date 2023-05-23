@@ -1113,6 +1113,7 @@ select {
   background-color: #ffffff;
   z-index: 998;
 }
+
 .header-section .navbar .navbar-header {
   position: relative;
   z-index: 5;
@@ -1122,7 +1123,7 @@ select {
   margin: 0;
 }
 .header-section .navbar .navbar-header .navbar-brand img {
-  padding: 35px 0;
+  padding: 0;
   -webkit-transition: 0.5s;
   -khtml-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -1145,7 +1146,8 @@ select {
   }
 }
 .header-section .navbar.sticky .navbar-header .navbar-brand img {
-  padding: 20px 0;
+  padding: 0;
+  width: 70%;
 }
 .header-section .navbar.sticky .navbar-collapse .navbar-nav li a {
   line-height: 70px;
@@ -9737,7 +9739,7 @@ select {
         HomePageOne-STYLE 
 ============================================================ */
 .homePageOne .header-section .middle-bar .navbar-header {
-  padding: 25px 0;
+  padding: 18px 0;
 }
 .homePageOne .header-section .middle-bar .navbar-header .navbar-brand {
   padding: 8px 0;
@@ -12692,6 +12694,10 @@ select {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+}
+.custom-brand {
+  height: auto;
+  float: none;
 }
 
 /*# sourceMappingURL=style.css.map */
