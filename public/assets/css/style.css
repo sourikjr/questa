@@ -639,7 +639,7 @@ select {
   }
 }
 .section-title p {
-  color: #6a7788;
+  color: #4d535b;
 }
 
 /* =========================================================
@@ -2357,7 +2357,7 @@ select {
 .service-section.service-section-three .service-wrapper .content-wrapper p {
   font-size: 16px;
   line-height: 30px;
-  color: #6a7788;
+  color: #4d535b;
   margin-bottom: 15px;
 }
 @media only screen and (max-width: 479px) {
@@ -2404,7 +2404,7 @@ select {
   }
 }
 .service-section .service-wrapper p {
-  color: #6a7788;
+  color: #4d535b;
   margin-bottom: 25px;
 }
 @media only screen and (max-width: 767px) {
@@ -2639,7 +2639,7 @@ select {
 .growing-section .content-wrapper p {
   font-size: 16px;
   line-height: 30px;
-  color: #6a7788;
+  color: #4d535b;
   margin: 0 80px 50px 0;
 }
 @media only screen and (max-width: 767px) {
@@ -6367,7 +6367,7 @@ select {
 .about-section .content-wrapper p {
   font-size: 16px;
   line-height: 30px;
-  color: #6a7788;
+  color: #4d535b;
 }
 @media only screen and (max-width: 767px) {
   .about-section .content-wrapper p {
