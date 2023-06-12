@@ -467,15 +467,45 @@ select {
   .pagination-wrapper {
     margin-top: 0;
   }
+
+  .navbar-brand {
+    padding: 4px 15px 15px;
+  }
+
+  .navbar-brand img {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .pagination-wrapper {
     margin-top: 20px;
   }
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 384px) {
   .pagination-wrapper {
     margin-top: 0;
+  }
+
+  .navbar-brand {
+    padding-bottom: 4px;
+  }
+
+  .navbar-brand img {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 385px) and (max-width: 479px) {
+  .pagination-wrapper {
+    margin-top: 0;
+  }
+
+  .navbar-brand {
+    padding-bottom: 4px;
+  }
+
+  .navbar-brand img {
+    width: 45vw;
   }
 }
 .pagination-wrapper .pagination li.active > a {
@@ -12710,4 +12740,16 @@ table thead tr {
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #dc8765da;
   color: white;
+}
+
+.menu-toggle.sticky::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 70px;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: -20px auto 0;
+  background: url("../images/logo-m.png") no-repeat;
 }
