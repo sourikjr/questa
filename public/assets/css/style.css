@@ -20,8 +20,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 27px;
-  font-weight: 400;
-  color: #3a3a3a;
+  font-weight: 500;
+  color: #191717;
   background-color: #ffffff;
   overflow-x: hidden;
 }
@@ -166,6 +166,7 @@ p img {
 p {
   margin: 0 0 15px;
   line-height: 27px;
+  text-align: justify;
 }
 
 hr {
@@ -378,7 +379,7 @@ button,
 }
 
 .section-padding {
-  padding: 110px 0;
+  padding: 50px 0;
 }
 @media only screen and (max-width: 991px) {
   .section-padding {
@@ -9643,7 +9644,7 @@ select {
   }
 }
 .footer-section .second-footer {
-  background-color: #23282e;
+  background-color: #8b8b8b;
 }
 .footer-section .second-footer .caption {
   margin-top: 65px;
@@ -9723,8 +9724,9 @@ select {
 .footer-section .second-footer .copy-right p {
   font-size: 16px;
   line-height: 24px;
-  color: #808790;
+  color: #fff;
   margin: 0;
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .footer-section .second-footer .copy-right p {
@@ -12701,3 +12703,11 @@ select {
 }
 
 /*# sourceMappingURL=style.css.map */
+table thead tr {
+  background-color: aliceblue;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #dc8765da;
+  color: white;
+}
