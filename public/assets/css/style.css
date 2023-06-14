@@ -13,14 +13,15 @@
 ------------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 /* =========================================================
         General
 ============================================================ */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 27px;
-  font-weight: 500;
+  font-weight: 400;
   color: #191717;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -46,7 +47,7 @@ body.dark-layout .footer-section .second-footer .copy-right p {
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html,
@@ -95,7 +96,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin: 0 0 20px;
 }
@@ -6596,7 +6597,7 @@ select {
   border: 0;
 }
 .mission-section .mission-wrapper .nav-tabs li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
@@ -6768,7 +6769,7 @@ select {
   font-size: 150px;
   line-height: 150px;
   font-weight: 300;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #fff;
   -webkit-filter: drop-shadow(3px 3px 0px #dadada);
   filter: drop-shadow(3px 3px 0px #dadada);
@@ -6981,7 +6982,7 @@ select {
   display: inline-block;
 }
 .comingsoonThree h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   line-height: 45px;
   font-weight: 400;
@@ -7185,7 +7186,7 @@ select {
   }
 }
 .comingsoonFour h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   line-height: 30px;
   font-weight: 700;
@@ -9995,7 +9996,6 @@ select {
   bottom: -80px;
   width: 100%;
   height: 100%;
-  background: url(../images/border.png) no-repeat center;
 }
 @media only screen and (max-width: 991px) {
   .homePageOne .double-section::before {
@@ -11383,7 +11383,7 @@ select {
   }
 }
 .event-grid-section .grid-wrapper .btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   padding: 7px 19px;
   margin-top: 38px;
@@ -11574,7 +11574,7 @@ select {
   }
 }
 .event-list-section .event-wrapper .wrapper-container .wrapper-content .btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   padding: 6px 19px;
   border: 2px solid #f1632b;
