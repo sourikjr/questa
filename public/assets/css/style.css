@@ -380,7 +380,7 @@ button,
 }
 
 .section-padding {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 @media only screen and (max-width: 991px) {
   .section-padding {
@@ -9987,7 +9987,7 @@ select {
 }
 .homePageOne .double-section {
   position: relative;
-  padding: 50px 0 15px;
+  padding: 20px 0 15px;
 }
 .homePageOne .double-section::before {
   content: "";
@@ -12752,4 +12752,27 @@ table thead tr {
   top: 50%;
   margin: -20px auto 0;
   background: url("../images/logo-m.png") no-repeat;
+}
+
+.fa-tachometer,
+.fa-pagelines,
+.fa-handshake-o,
+.fa-cubes {
+  font-size: 3rem !important;
+  width: 7rem !important;
+  height: 7rem !important;
+  padding: auto;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
