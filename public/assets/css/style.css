@@ -2326,6 +2326,7 @@ select {
 .service-section.service-section-three .service-wrapper .caption img {
   border-radius: 15px 15px 0 0;
   width: 100%;
+
   box-shadow: 0 0 10px #b9b9b9;
 }
 .service-section.service-section-three .service-wrapper .content-wrapper {
@@ -12775,4 +12776,20 @@ table thead tr {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.add-margin {
+  margin-inline: 12vw;
+}
+
+.contact-wrapper ul li a {
+  color: white;
+}
+
+.caption {
+  justify-self: center;
+}
+
+.full-height {
+  height: 100%;
 }
